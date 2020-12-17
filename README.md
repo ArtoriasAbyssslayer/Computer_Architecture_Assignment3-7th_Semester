@@ -27,15 +27,15 @@
 
 Λαμβάνοντας σαν ισχύ που καταναλώνει ο επεξεργαστής για να τρέξει το πρόγραμμα το Runtime Dynamic βρίσκουμε οτι:</br>
     
-    * W_Xeon = RuntimeDynamic * Time = 72.92 * T [J]  (Ενέργεια του Xeon)</br>
-    * W_Arm = RuntimeDynamic * Time = 2.96 * 40T = 118.4 * T[J] (Η ενέργεια του Arm)</br>
+   * W_Xeon = RuntimeDynamic * Time = 72.92 * T [J]  (Ενέργεια του Xeon)</br>
+   * W_Arm = RuntimeDynamic * Time = 2.96 * 40T = 118.4 * T[J] (Η ενέργεια του Arm)</br>
 
 O λόγος τους είναι : W_Xeon/W_Arm = 0.6158 που αυτο αφορά όμως μόνο τον χρόνο εκτέλεσης του προγράμματος(εδώ Xeon πιο αποδοτικός).</br>
 Ωστόσο στον υπόλοιπο χρόνο που τρέχει ο Arm (39Τ) ο Xeon μπαίνει σε idle mode και με βάση την έρευνα που κάναμε στην βιβλίογραφία:[xeon_stats_link](https://techreport.com/news/13036/new-xeons-bring-dramatically-lower-idle-power/) o Xeon έχει μέση idle ισχύ γύρω στα 50Watt.</br>
 
 Ετσι η συνολική ενέργεια είναι:</br>
     
-     * W_Xeon = 79.92 * Τ + 50 * 39T =  2029.92T[J] (run + idle mode)</br>
-     * W_Arm  = 118.4 * Τ[J]  (run mode)</br>
+   * W_Xeon = 79.92 * Τ + 50 * 39T =  2029.92T[J] (run + idle mode)</br>
+   * W_Arm  = 118.4 * Τ[J]  (run mode)</br>
 
 Έτσι ο Xeon δεν μπορεί να είναι ενεργειακά αποδοτικότερος απο το Arm Α9.</br>

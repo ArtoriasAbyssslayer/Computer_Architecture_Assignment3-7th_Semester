@@ -72,7 +72,7 @@ Kαι συγκριτικά με το processor area έχουμε το εξής �
 Μας εδνιαφέρει το γινόμενο ενέργειας * delay(runtime). Η ενέργεια μεγαλώνει καθώς ανεβάζουμε οποιοδήποτε παράγοντα όμως δραματικές πτώσεις runtime έχουμε μόνο όταν ανεβάζουμε το cache line size (και οχι πάντα). Οπότε παίρνουμε την αρχιτεκτονική που έχει την μεγαλύτερη πτώση runtime(που δηλ δεν είναι αμελητέα) που όπως είδαμε στην δεύτερη εργασία εξάρτάται απο το cache line size  και θέλουμε να επιτύχουμε μικρότερη ενέργεια.
 Το associativity μειώνει πάρα πολύ λίγο το runtime και αυξάνει την ενέργεια με την αύξησή του οπότε παίρνουμε το default και δεν το χρησιμοποιούμε στα γραφήμτα.
 Επίσης από μεγέθη μνημών παίρνουμε το test type A το οποίο χρησιμοποιεί μικρότερη L2 και μειώνει το EDP αλλά και το EDA(Energy Delay Area).
-
+To test type A δεν ειναι σε καθε περίπτωση με 256B cache line size αλλά είναι με αυτό που έχουν παρόμοιο σχεδον EDP απο τα προηγουμενα.
 ![specbzipEDP](https://github.com/harryfilis/Computer_Architecture_Assignment3-7th_Semester/blob/master/EDP%20plots/specbzipEDP.png)
 ![spechmmerEDp](https://github.com/harryfilis/Computer_Architecture_Assignment3-7th_Semester/blob/master/EDP%20plots/spechmmerEDP.png)
 ![speclibmEDP](https://github.com/harryfilis/Computer_Architecture_Assignment3-7th_Semester/blob/master/EDP%20plots/speclibmEDP.png)

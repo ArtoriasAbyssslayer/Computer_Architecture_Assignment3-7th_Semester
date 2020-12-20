@@ -49,8 +49,8 @@ O λόγος τους είναι : W_Xeon/W_Arm = 0.896 που αυτο αφορ
 ### Βήμα 2
 
 
-| TEST_TYPE | l1_dsize | l1_isize | l2_size | l1d_assoc | l1i_assoc | l2_assoc | cacheline_size | spec |
-|-|-|-|-|-|-|-|-|-|
+| TEST_TYPE | l1_dsize | l1_isize | l2_size | l1d_assoc | l1i_assoc | l2_assoc | cacheline_size |
+|-|-|-|-|-|-|-|-|
 | A | 64KB | 64KB | 512KB | 2 | 2 | 8 | 256 | 
 | B | 128KB | 128KB | 1MB | 2 | 2 | 8 | 256 | 
 | C | 128KB | 128KB | 2MB | 2 | 2 | 8 | 256 |

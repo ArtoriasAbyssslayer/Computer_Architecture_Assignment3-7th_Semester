@@ -105,6 +105,8 @@ Kαι συγκριτικά με το processor area έχουμε το εξής �
 | A | 64KB | 64KB | 512KB | 2 | 2 | 8 | 256 | 
 
 ### Πηγές 
+* https://www.hpl.hp.com/research/mcpat/micro09.pdf
+* https://techreport.com/news/13036/new-xeons-bring-dramatically-lower-idle-power
 
 
 

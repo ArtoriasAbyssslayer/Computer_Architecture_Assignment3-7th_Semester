@@ -73,7 +73,11 @@ Kαι συγκριτικά με το processor area έχουμε το εξής �
 Το associativity μειώνει πάρα πολύ λίγο το runtime και αυξάνει την ενέργεια με την αύξησή του οπότε παίρνουμε το default και δεν το χρησιμοποιούμε στα γραφήμτα.
 Επίσης από μεγέθη μνημών παίρνουμε το test type A το οποίο χρησιμοποιεί μικρότερη L2 και μειώνει το EDP αλλά και το EDA(Energy Delay Area).
 
-
+![specbzipEDP](https://github.com/harryfilis/Computer_Architecture_Assignment3-7th_Semester/blob/master/EDP%20plots/specbzipEDP.png)
+![spechmmerEDp](https://github.com/harryfilis/Computer_Architecture_Assignment3-7th_Semester/blob/master/EDP%20plots/spechmmerEDP.png)
+![speclibmEDP](https://github.com/harryfilis/Computer_Architecture_Assignment3-7th_Semester/blob/master/EDP%20plots/speclibmEDP.png)
+![specmcfEDP](https://github.com/harryfilis/Computer_Architecture_Assignment3-7th_Semester/blob/master/EDP%20plots/specmcfEDP.png)
+![specsjengEDP](https://github.com/harryfilis/Computer_Architecture_Assignment3-7th_Semester/blob/master/EDP%20plots/specsjengEDP.png)
 ### Πηγές 
 
 

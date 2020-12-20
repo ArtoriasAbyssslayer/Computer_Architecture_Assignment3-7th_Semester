@@ -47,5 +47,7 @@ O λόγος τους είναι : W_Xeon/W_Arm = 0.896 που αυτο αφορ
 Έτσι ο Xeon δεν μπορεί να είναι ενεργειακά αποδοτικότερος απο το Arm Α9.</br>
 
 ### Βήμα 2
+'Oσον αφορά το peak power, αυτό βγαίνει το ίδιο σε κάθε benchmark για τις αρχιτεκτονικές που τρέξαμε γιατι εξαρτάται απο την αρχιτεκτονική.Το γράφημα για κάθε τύπο test είναι το εξής:
+![SpecPeakPower](https://github.com/harryfilis/Computer_Architecture_Assignment3-7th_Semester/blob/master/peak_power.png)
 
 

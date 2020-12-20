@@ -48,9 +48,9 @@ O λόγος τους είναι : W_Xeon/W_Arm = 0.896 που αυτο αφορ
 
 ### Βήμα 2 gem5 + McPAT: αναζητώντας τη βελτιστοποίηση του γινομένου EDP
 
-**Σημείωση :** τα γραφήματα με μεταβλητή στον άξονα x 32, 64, 128 ,256 αφορούν αρχιτεκτονικές :
+**Σημείωση :** Τα γραφήματα με μεταβλητή στον άξονα x 32, 64, 128 ,256 αφορούν αρχιτεκτονικές :
 
-| l1_dsize | l1_isize | l2_size | l1d_assoc | l1i_assoc | l2_assoc | cacheline_size | specbzip | specmcf | specsjeng | spechmmer | speclibm |
+| l1_dsize | l1_isize | l2_size | l1d_assoc | l1i_assoc | l2_assoc | cacheline_size |
 |-|-|-|-|-|-|-|-|-|-|-|-|
 | 64KB | 32KB | 2MB | 2 | 2 | 8 | {32Β, 64Β, 128Β, 256Β} |
 

@@ -1,0 +1,4 @@
+Reading simulation time from: specsjeng_tests/cachleline_test/32/mcpat_out_32.txt
+Reading simulation time from: ../../Documents/Computer_Architecture_2nd_Assignment/spec_results/tests/specsjeng_tests/cachelinetests/32/stats.txt
+leakage: 0.845989 W, dynamic: 0.078036 W and runtime: 1.166566 sec
+energy is 1077.936498 mJ

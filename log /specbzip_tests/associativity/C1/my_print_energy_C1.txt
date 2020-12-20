@@ -1,0 +1,4 @@
+Reading simulation time from: specbzip_tests/associativity/C1/mcpat_out_C1.txt
+Reading simulation time from: ../../Documents/Computer_Architecture_2nd_Assignment/spec_results/tests/specbzip_tests/othermods/assoc/C1/stats.txt
+leakage: 3.854630 W, dynamic: 3.779940 W and runtime: 0.153994 sec
+energy is 1175.677973 mJ

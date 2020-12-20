@@ -1,0 +1,4 @@
+Reading simulation time from: speclibm_tests/othermods/B/mcpat_out_B.txt
+Reading simulation time from: ../../Documents/Computer_Architecture_2nd_Assignment/spec_results/tests/speclibm_tests/othermods/B/stats.txt
+leakage: 2.966070 W, dynamic: 1.652840 W and runtime: 0.165478 sec
+energy is 764.327989 mJ

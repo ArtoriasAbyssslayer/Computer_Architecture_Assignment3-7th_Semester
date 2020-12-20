@@ -1,0 +1,4 @@
+Reading simulation time from: spechmmer_tests/associativity/B1/mcpat_out_B1.txt
+Reading simulation time from: ../../Documents/Computer_Architecture_2nd_Assignment/spec_results/tests/spechmmer_tests/othermods/assoc/B1/stats.txt
+leakage: 1.622460 W, dynamic: 1.019300 W and runtime: 0.117783 sec
+energy is 311.154418 mJ

@@ -69,15 +69,35 @@ Kαι συγκριτικά με το processor area έχουμε το εξής �
 
 **Εnergy Delay Product**
 
-Μας εδνιαφέρει το γινόμενο ενέργειας * delay(runtime). Η ενέργεια μεγαλώνει καθώς ανεβάζουμε οποιοδήποτε παράγοντα όμως δραματικές πτώσεις runtime έχουμε μόνο όταν ανεβάζουμε το cache line size (και οχι πάντα). Οπότε παίρνουμε την αρχιτεκτονική που έχει την μεγαλύτερη πτώση runtime(που δηλ δεν είναι αμελητέα) που όπως είδαμε στην δεύτερη εργασία εξάρτάται απο το cache line size  και θέλουμε να επιτύχουμε μικρότερη ενέργεια.
-Το associativity μειώνει πάρα πολύ λίγο το runtime και αυξάνει την ενέργεια με την αύξησή του οπότε παίρνουμε το default και δεν το χρησιμοποιούμε στα γραφήμτα.
-Επίσης από μεγέθη μνημών παίρνουμε το test type A το οποίο χρησιμοποιεί μικρότερη L2 και μειώνει το EDP αλλά και το EDA(Energy Delay Area).
-To test type A δεν ειναι σε καθε περίπτωση με 256B cache line size αλλά είναι με αυτό που έχουν παρόμοιο σχεδον EDP απο τα προηγουμενα.
+Μας εδνιαφέρει το γινόμενο ενέργειας * delay (το delay θεωρούμε ότι είναι κάτι ανάλογο του runtime). Η καταναλισκόμενη ενέργεια αυξάνεται καθώς αυξάνουμε σε μέγεθος οποιαδήποτε παράμετρο των μνημών cache. Όμως σημαντικές αλλαγές στο runtime έχουμε μόνο όταν μεταβάλλουμε το cache line size, στις άλλες περιπτώσεις έχουμε μείωση της τάξης του 0,01-0,001. Άυτο το συμπεραίνουμε από την μελέτη μας στην εργαστηριακή άσκηση 2. Οπότε προσπαθούμε να βρούμε την αρχιτεκτονική που έχει σημαντική μείωση του χρόνου εκτέλεσης και παράλληλα η καταναλισκόμενη ενέργεια κυμαίνεται σε λογικά πλαίσια. </br>
+Η αύξηση της πολυπλοκότητας των μνημών(αύξηση του associativity) μειώνει ελάχιστα το runtime και αυξάνει την ενέργεια. Οπότε παίρνουμε το default και δεν το χρησιμοποιούμε στα γραφήματα. Το ίδιο ισχύει και για το μέγεθος της μνήμης L2 cache, γι΄ αυτό χρησιμοποιούμε μόνο την αρχιτεκτονικη A (test TYPE A) που έχει L2_size = 512kB. Το test type A το οποίο χρησιμοποιείται η μικρότερη L2  μειώνει το EDP αλλά και το EDA(Energy Delay Area).</br>
+
 ![specbzipEDP](https://github.com/harryfilis/Computer_Architecture_Assignment3-7th_Semester/blob/master/EDP%20plots/specbzipEDP.png)
+
+| TEST_TYPE | l1_dsize | l1_isize | l2_size | l1d_assoc | l1i_assoc | l2_assoc | cacheline_size |
+|-|-|-|-|-|-|-|-|
+| A | 64KB | 64KB | 512KB | 2 | 2 | 8 | 256 | 
+
 ![spechmmerEDp](https://github.com/harryfilis/Computer_Architecture_Assignment3-7th_Semester/blob/master/EDP%20plots/spechmmerEDP.png)
+| TEST_TYPE | l1_dsize | l1_isize | l2_size | l1d_assoc | l1i_assoc | l2_assoc | cacheline_size |
+|-|-|-|-|-|-|-|-|
+| A | 64KB | 64KB | 512KB | 2 | 2 | 8 | 128 | 
+
 ![speclibmEDP](https://github.com/harryfilis/Computer_Architecture_Assignment3-7th_Semester/blob/master/EDP%20plots/speclibmEDP.png)
+| TEST_TYPE | l1_dsize | l1_isize | l2_size | l1d_assoc | l1i_assoc | l2_assoc | cacheline_size |
+|-|-|-|-|-|-|-|-|
+| A | 64KB | 64KB | 512KB | 2 | 2 | 8 | 256 | 
+
 ![specmcfEDP](https://github.com/harryfilis/Computer_Architecture_Assignment3-7th_Semester/blob/master/EDP%20plots/specmcfEDP.png)
+| TEST_TYPE | l1_dsize | l1_isize | l2_size | l1d_assoc | l1i_assoc | l2_assoc | cacheline_size |
+|-|-|-|-|-|-|-|-|
+| A | 64KB | 64KB | 512KB | 2 | 2 | 8 | 32 | 
+
 ![specsjengEDP](https://github.com/harryfilis/Computer_Architecture_Assignment3-7th_Semester/blob/master/EDP%20plots/specsjengEDP.png)
+| TEST_TYPE | l1_dsize | l1_isize | l2_size | l1d_assoc | l1i_assoc | l2_assoc | cacheline_size |
+|-|-|-|-|-|-|-|-|
+| A | 64KB | 64KB | 512KB | 2 | 2 | 8 | 256 | 
+
 ### Πηγές 
 
 

@@ -59,6 +59,8 @@ O λόγος τους είναι : W_Xeon/W_Arm = 0.896 που αυτο αφορ
 | B1 | 128KB | 128KB | 4MB | 4 | 4 | 8 | 256 | 
 | C1 | 128KB | 128KB | 4MB | 8 | 8 | 8 | 256 |
 | D1 | 128KB | 128KB | 4MB | 8 | 8 | 16| 256 |
+
+
 'Oσον αφορά το peak power, αυτό βγαίνει το ίδιο σε κάθε benchmark για τις αρχιτεκτονικές που τρέξαμε γιατι εξαρτάται απο την αρχιτεκτονική.Το γράφημα για κάθε τύπο test είναι το εξής:</br>
 ![SpecPeakPower](https://github.com/harryfilis/Computer_Architecture_Assignment3-7th_Semester/blob/master/peak_power.png)
 

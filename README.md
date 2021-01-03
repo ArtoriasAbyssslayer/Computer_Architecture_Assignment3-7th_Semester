@@ -108,9 +108,10 @@ Kαι συγκριτικά με το processor area έχουμε το εξής �
 
 **Τα αποτελέσματα μπορεί να είναι αναξιόπιστα**</br>
 
-Ο mcpat παίρνει ως είσοδο αρκετά στοιχεία (.xml) αλλά δεν ξέρουμε ποια απο αυτά χρησιμοποιεί.Επίσης όλα γίνονται σε επίπεδο προσομοιώσεων και υπάρχει περίπτωση να διαφέρουν από μετρήσεις σε πραγματικές συνθήκες.</br>
+Ο mcpat παίρνει ως είσοδο αρκετά στοιχεία εκ των οποίων δεν ξέρουμε και ποια απο αυτά **στρογγυλοποιούνται** στο επίπεδο του gem5 και δεν ξέρουμε ποια απο αυτά χρησιμοποιεί.Επίσης όλα γίνονται σε επίπεδο προσομοιώσεων και υπάρχει περίπτωση να διαφέρουν από μετρήσεις σε πραγματικές συνθήκες.</br>
+Ένας ακόμη λόγος που μπορεί τα αποτελέσματα να είναι αναξιόπιστα είναι ότι χρησιμοποιούνται scripts (ex. setup scripts) σε γλώσσα υψηλού επιπέδου (python2) και όχι μια γλώσσα χαμηλότερου επιπέδου πιο κοντά στο hardware.</br>
 Παράγραφος 8 Validation ~ [mcpat_pdf](https://www.hpl.hp.com/research/mcpat/McPATAlpha_TechRep.pdf)</br>
-"Table 4 compares the published die sizes of the target processors with the McPAT results,  which shows that themodeled area numbers track the published numbers well.  The error is higher for Niagara2 because it has more typesof I/O components than others as mentioned above, which are not modeled in McPAT. It is important to point out thateven if we use empirical models for highly irregular logic, we still see a reasonable match between McPAT results andreported data."</br>
+Διαβάζοντας και το παραπάνω paper βλέπουμε οτι υπάρχουν αναξιοπιστίες στα αποτελέσματα του mcpat.
 ### Πηγές 
 * https://techreport.com/news/13036/new-xeons-bring-dramatically-lower-idle-power
 * https://www.hpl.hp.com/research/mcpat/McPATAlpha_TechRep.pdf
